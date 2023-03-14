@@ -2,7 +2,8 @@
 debloat(){
   echo "Debloating Started, Don't Unplug Your Device"
   sleep 2
-}
+  echo "Be Patient..."
+adb shell << appl-list.txt
 rollback(){
   echo "Rollback Started, Don't Unplug Your Device"
  #spinner here
