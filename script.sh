@@ -9,9 +9,6 @@ rollback(){
 }
 echo "Checking For Connected Devices"
   adb devices 
-  echo "Press 0 To Start Debloating On The Aboue Device"
-  read confirmation 
-  if [ $confirmation == 0 ]; then
 
  echo -ne "
  What you want to do...?
@@ -19,10 +16,8 @@ echo "Checking For Connected Devices"
  2) Rollback Changes 
 " 
 read option
-if[ $option == 1 ]; then 
+if [ $option == 1 ]; then 
   debloat
 else
  rollback 
 fi
-
-  fi
