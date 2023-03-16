@@ -3,7 +3,7 @@ debloat(){
   echo "Debloating Started, Don't Unplug Your Device"
   sleep 2
   echo "Be Patient..."
-adb shell pm uninstall --user 0 < app-list.txt
+adb shell pm uninstall -k --user 0 < app-list.txt
 rollback(){
   echo "Rollback Started, Don't Unplug Your Device"
  #spinner here
