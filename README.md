@@ -23,15 +23,15 @@ It may make the device stuck on boot loop and you may need to flash the Stock Ro
 ## Lets do it...
 
 * Enable usb debugging
-* Install Adb on you system
-*Ubuntu*
+* Install Adb on you system<br>
+*Ubuntu*<br>
  `sudo apt install android-sdk-platform-tools` <br>
- *Arch*
+ *Arch*<br>
  `sudo pacman -S android-sdk-platform-tools` <br>
- *RedHat*
+ *RedHat*<br>
  `sudo yum install android-tools`<br>
- *Windows*
+ *Windows*<br>
  `Debloat windows first..!`<br>
-* Connect Device with USB
-* Run the script
- `./debloat-android--cli.sh`
+* Connect Device with USB<br>
+* Run the script<br>
+ `./debloat-android--cli.sh`<br>
