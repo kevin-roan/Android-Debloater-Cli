@@ -30,4 +30,4 @@ It may make the device stuck on boot loop and you may need to flash the Stock Ro
  `Debloat windows first..!`<br>
 * Connect Device with USB<br>
 * Run the script<br>
- `./debloat-android--cli.sh`<br>
+ `./debloat-android-cli.sh`<br>
