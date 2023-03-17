@@ -19,6 +19,8 @@ It may make the device stuck on boot loop and you may need to flash the Stock Ro
 ## Lets do it...
 
 * Enable usb debugging
+![image](https://user-images.githubusercontent.com/103060398/225995363-71625bee-c0ed-4cb1-be71-7d566747129e.png)<br>
+
 * Install Adb on you system<br>
 *Ubuntu*<br>
  `sudo apt install android-sdk-platform-tools` <br>
