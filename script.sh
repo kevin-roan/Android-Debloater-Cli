@@ -4,6 +4,7 @@ debloat(){
   sleep 2
   echo "Be Patient..."
 adb shell pm uninstall -k --user 0 < app-list.txt
+}
 rollback(){
   echo "Rollback Started, Don't Unplug Your Device"
  #spinner here
