@@ -3,12 +3,14 @@ debloat(){
   echo "Debloating Started, Don't Unplug Your Device"
   sleep 2
   echo "Be Patient..."
-adb shell pm uninstall -k --user 0 < app-list.txt
+  $packages cat app-list.txt
+  adb shell pm uninstall -k --user 0 $(head -n 1 $packages)
 }
 rollback(){
   echo "Rollback Started, Don't Unplug Your Device"
  #spinner here
-  adb shell pm install-existing < app-list.txt
+  $packages cat app-list.txt
+  adb shell pm install-existing $(head -n 1 $packages)
 }
 echo "Checking For Connected Devices"
 sleep 2
