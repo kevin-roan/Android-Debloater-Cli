@@ -1,9 +1,5 @@
-## Android Debloater CLI
-
-### Disclaimer:Use at your own risk. I am not responsible fo anything that could happen to your phone.
-
 # Android Debloater-Cli
-
+### Disclaimer:Use at your own risk. I am not responsible fo anything that could happen to your phone.
 This is a minimal command line based script to remove the system application/bloatwares.
 This software aims to improve privacy and battery performance by removing unnecessary and obscure system apps.
 
