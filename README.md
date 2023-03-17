@@ -45,6 +45,6 @@ It may make the device stuck on boot loop and you may need to flash the Stock Ro
  
  
 
- 
- < CHECKOUT SIMILAR PROJECT>
+ ### Thanks.. :)
+ < CHECKOUT SIMILAR PROJECT >
  https://github.com/0x192/universal-android-debloater
