@@ -34,3 +34,13 @@ It may make the device stuck on boot loop and you may need to flash the Stock Ro
 ### Connect Device with USB<br>
 ### Run the script<br>
  `./debloat-android-cli.sh`<br>
+ 
+ ## Adding More Applications to the list
+ 
+ do, echo "package-name" > app-list.txt
+ The Package Name Can be found on /settings/apps&notifications/appinfo<br>
+ ![image](https://user-images.githubusercontent.com/103060398/225998080-ba0b1c54-1dd1-42bd-a211-3f06c954374b.png)<br>
+ 
+ 
+
+ 
