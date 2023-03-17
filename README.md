@@ -2,12 +2,36 @@
 
 ### Disclaimer:Use at your own risk. I am not responsible fo anything that could happen to your phone.
 
-Requirements:
-Android Phone with usb_debugging enabled.
+# Android Debloater-Cli
 
-You can add/remove apps from or to the app-list.txt file.
+This is a minimal command line based script to remove the system application/bloatwares.
+This software aims to improve privacy and battery performance by removing unnecessary and obscure system apps.
 
-Package name can be found on settings/apps/appinfo
+## Is this safe..?
 
-![image](https://user-images.githubusercontent.com/103060398/225988258-58e9c762-d13a-4bbd-953e-3351036ed9f8.png)
+There is no binary answer, if the system application is necessary for working of android os and if you removing them,
+It may make the device stuck on boot loop and you may need to flash the Stock Rom again.
+ 
 
+## Features
+
+> Uninstall and Restore system packages
+> Uninstall user packages
+> Removes Application for single user.
+
+
+## Lets do it...
+
+* Enable usb debugging
+* Install Adb on you system
+*Ubuntu*
+ `sudo apt install android-sdk-platform-tools` 
+ *Arch*
+ `sudo pacman -S android-sdk-platform-tools`
+ *RedHat*
+ `sudo yum install android-tools`
+ *Windows*
+ `Debloat windows first..!`
+* Connect Device with USB
+* Run the script
+ `./debloat-android--cli.sh`
