@@ -11,9 +11,9 @@ It may make the device stuck on boot loop and you may need to flash the Stock Ro
 
 ## Features
 
-> Uninstall and Restore system packages
-> Uninstall user packages
-> Removes Application for single user.
+> Uninstall and Restore system packages<br>
+> Uninstall user packages<br>
+> Removes Application for single user.<br>
 
 
 ## Lets do it...
