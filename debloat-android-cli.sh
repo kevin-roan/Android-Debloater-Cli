@@ -30,8 +30,9 @@ read option
 if [ $option == 1 ]; then 
   debloat
 else
-  [ $option == 2]
+  if [ $option == 2 ]
  rollback 
 else 
   insertnewapp
 fi
+fi 
